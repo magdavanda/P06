@@ -10,3 +10,6 @@ def strength_potion() -> str:
 
 print(healing_potion())
 print(strength_potion())
+
+testtsettest
+int x:
