@@ -1,22 +1,27 @@
-from . import elements as alchemy_elements
-import elements
+from .elements import create_air, create_earth
+from elements import create_fire, create_water
 
 
 def healing_potion() -> str:
     return (
             f"Healing potion brewed with "
-            f"'{alchemy_elements.create_earth()}' "
-            f"and '{alchemy_elements.create_air()}'"
+            f"'{create_earth()}' "
+            f"and '{create_air()}'"
             )
 
 
 def strength_potion() -> str:
     return (
             f"Strength potion brewed with "
-            f"'{elements.create_fire()}' "
-            f"and '{elements.create_water()}'"
+            f"'{create_fire()}' "
+            f"and '{create_water()}'"
             )
 
 
-print(healing_potion())
-print(strength_potion())
+def main() -> None:
+    print(healing_potion())
+    print(strength_potion())
+
+
+if __name__ == "__main__":
+    main()
