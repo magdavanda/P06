@@ -5,6 +5,6 @@ def light_spell_allowed_ingredients() -> list[str]:
 def light_spell_record(spell_name: str, ingredients: str) -> str:
     from .light_validator import validate_ingredients
     if validate_ingredients(ingredients) == "VALID":
-        print(f"Spell recorded: {spell_name} ({ingredients} - VALID)")
+        return (f"Spell recorded: {spell_name} ({ingredients} - VALID)")
     else:
-        print("Ingredients INVALID")
+        return ("Ingredients INVALID")

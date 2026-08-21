@@ -1,13 +1,14 @@
+import alchemy.grimoire
 
 
 def main():
-    print("=== Kaboom 1 ===")
+    print("=== Kaboom 0 ===")
     print("Using grimoire module directly")
     spell_name: str = "Fantasy"
-    ingredients: str = "Eart, wind and fire"
+    ingredients: str = "Earth, wind and fire"
     print(
             f"Testing record light spell:"
-            f" {light_spell_record(spell_name, ingredients)}"
+            f" {alchemy.grimoire.light_spell_record(spell_name, ingredients)}"
             )
 
 
