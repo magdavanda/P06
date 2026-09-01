@@ -16,12 +16,3 @@ def strength_potion() -> str:
             f"'{create_fire()}' "
             f"and '{create_water()}'"
             )
-
-
-def main() -> None:
-    print(healing_potion())
-    print(strength_potion())
-
-
-if __name__ == "__main__":
-    main()
