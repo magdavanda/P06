@@ -1,6 +1,5 @@
 import alchemy.grimoire
 
-
 print("=== Kaboom 0 ===")
 print("Using grimoire module directly")
 spell_name: str = "Fantasy"
