@@ -1,1 +1,1 @@
-from .light_spellbook import light_spell_record
+from .light_spellbook import light_spell_record as light_spell_record
